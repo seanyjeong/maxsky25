@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>맥스체대입시  - 체대입시 SKY 합격사례 분석</title>
+    <style>
+        body {
+            font-family: 'Nanum Gothic', 'Malgun Gothic', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #2c3e50;
+        }
+        .header h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .header p {
+            color: #7f8c8d;
+            font-size: 16px;
+        }
+        .univ-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        .yonsei-header {
+            background: #003366; /* 연세대 네이비 */
+            color: white;
+        }
+        .korea-header {
+            background: #861F41; /* 고려대 빨강 */
+            color: white;
+        }
+        .seoul-header {
+            background: #00205B; /* 서울대 파랑 */
+            color: white;
+        }
+        .passed-header {
+            padding: 15px 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .failed-header {
+            padding: 15px 20px;
+            font-size: 20px;
+            font-weight: bold;
+            background: #e74c3c !important;
+        }
+        .female-header {
+            background: #9b59b6 !important;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 18px;
+            border-left: 4px solid #e74c3c;
+            padding-left: 10px;
+        }
+        .yonsei-section { border-left-color: #003366; }
+        .korea-section { border-left-color: #861F41; }
+        .seoul-section { border-left-color: #00205B; }
+        .failed-section { border-left-color: #e74c3c; }
+        .female-section { border-left-color: #9b59b6; }
+        .grade-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .grade-table th, .grade-table td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: center;
+        }
+        .grade-table th {
+            background-color: #f2f2f2;
+        }
+        .score-box {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .yonsei-box { background: #e6f0ff; }
+        .korea-box { background: #fde8ee; }
+        .seoul-box { background: #e6ecff; }
+        .failed-box { background: #fdeaea; }
+        .female-box { background: #f5eef8; }
+        .total-score {
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .passed { color: #27ae60; }
+        .failed { color: #e74c3c; }
+        .comparison {
+            background: #f0f7fb;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 4px solid #3498db;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 14px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+        .warning { color: #e74c3c; font-weight: bold; }
+        .note { color: #7f8c8d; font-style: italic; }
+        .highlight { background-color: #fffacd; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>맥스체대입시  SKY합격사례 분석</h1>
+        <p>실제 합격/불합격 사례로 보는 체대입시 전략</p>
+    </div>
+
+    <!-- 연세대 -->
+    <div class="univ-card">
+        <div class="passed-header yonsei-header">연세대학교 체육교육학과</div>
+        <div class="content">
+            <!-- 합격생 -->
+            <div class="section">
+                <div class="section-title yonsei-section">합격생 사례</div>
+                <table class="grade-table">
+                    <tr>
+                        <th colspan="6">수능 성적</th>
+                    </tr>
+                    <tr>
+                        <th>국어(언매)</th>
+                        <th>수학(확통)</th>
+                        <th>영어</th>
+                        <th>생활과윤리</th>
+                        <th>사회문화</th>
+                        <th>한국사</th>
+                    </tr>
+                    <tr>
+                        <td>1등급</td>
+                        <td>3등급</td>
+                        <td>2등급</td>
+                        <td>1등급</td>
+                        <td>1등급</td>
+                        <td>2등급</td>
+                    </tr>
+                </table>
+                <div class="score-box yonsei-box">
+                    수능 환산점수: <span class="total-score">586.54점</span>
+                </div>
+                
+                <table class="grade-table">
+                    <tr>
+                        <th colspan="4">실기 성적</th>
+                    </tr>
+                    <tr>
+                        <th>25m 왕복달리기</th>
+                        <th>제자리멀리뛰기</th>
+                        <th>메디신볼던지기</th>
+                        <th>실기 총점</th>
+                    </tr>
+                    <tr>
+                        <td>18.7초 (25점)</td>
+                        <td>262cm (29점)</td>
+                        <td>12.3m (33점)</td>
+                        <td>87점</td>
+                    </tr>
+                </table>
+                <div class="score-box yonsei-box">
+                    합산 총점: <span class="total-score passed">673.54점</span> (합격)
+                </div>
+            </div>
+            
+            <!-- 불합격생 -->
+            <div class="section">
+                <div class="section-title failed-section">불합격생 사례 (예비 27번)</div>
+                <table class="grade-table">
+                    <tr>
+                        <th colspan="6">수능 성적</th>
+                    </tr>
+                    <tr>
+                        <th>국어(언매)</th>
+                        <th>수학(확통)</th>
+                        <th>영어</th>
+                        <th>생활과윤리</th>
+                        <th>윤리와사상</th>
+                        <th>한국사</th>
+                    </tr>
+                    <tr>
+                        <td>1등급</td>
+                        <td>3등급</td>
+                        <td>1등급</td>
+                        <td>3등급</td>
+                        <td>1등급</td>
+                        <td>3등급</td>
+                    </tr>
+                </table>
+                <div class="score-box failed-box">
+                    수능 환산점수: <span class="total-score">589.4점</span> (합격생보다 +2.86점)
+                </div>
+                
+                <table class="grade-table">
+                    <tr>
+                        <th colspan="4">실기 성적</th>
+                    </tr>
+                    <tr>
+                        <th>25m 왕복달리기</th>
+                        <th>제자리멀리뛰기</th>
+                        <th>메디신볼던지기</th>
+                        <th>실기 총점</th>
+                    </tr>
+                    <tr>
+                        <td>19.32초 (23점)</td>
+                        <td>271cm (31점)</td>
+                        <td>8.2m (15점)</td>
+                        <td class="highlight">69점 (-18점)</td>
+                    </tr>
+                </table>
+                <div class="score-box failed-box">
+                    합산 총점: <span class="total-score failed">658.4점</span> (불합격)
+                    <div class="warning">※ 메디신볼던지기 15점(합격생 33점)으로 실기에서 큰 차이</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 고려대 -->
+    <div class="univ-card">
+        <div class="passed-header korea-header">고려대학교 체육교육과</div>
+        <div class="content">
+            <!-- 합격생 -->
+            <div class="section">
+                <div class="section-title korea-section">합격생 사례</div>
+                <table class="grade-table">
+                    <tr><th colspan="6">수능 성적</th></tr>
+                    <tr>
+                        <th>국어(언매)</th>
+                        <th>수학(미적분)</th>
+                        <th>영어</th>
+                        <th>정치와법</th>
+                        <th>생명과학I</th>
+                        <th>한국사</th>
+                    </tr>
+                    <tr>
+                        <td>4등급</td>
+                        <td>1등급</td>
+                        <td>3등급</td>
+                        <td>2등급</td>
+                        <td>1등급</td>
+                        <td>5등급</td>
+                    </tr>
+                </table>
+                <div class="score-box korea-box">
+                    수능 환산점수: <span class="total-score">446.18점</span>
+                </div>
+                
+                <table class="grade-table">
+                    <tr><th colspan="4">실기 성적</th></tr>
+                    <tr>
+                        <th>높이뛰기</th>
+                        <th>농구</th>
+                        <th>지그재그런</th>
+                        <th>실기 총점</th>
+                    </tr>
+                    <tr>
+                        <td>154cm (96점)</td>
+                        <td>20개 (99점)</td>
+                        <td>30.81초 (98점)</td>
+                        <td>292점</td>
+                    </tr>
+                </table>
+                <div class="score-box korea-box">
+                    환산 총점: <span class="total-score passed">739.18점</span> (합격)
+                </div>
+            </div>
+            
+            <!-- 불합격생 (여학생) -->
+            <div class="section">
+                <div class="section-title female-section">불합격생 사례 - 여학생 (예비 37번)</div>
+                <table class="grade-table">
+                    <tr><th colspan="6">수능 성적</th></tr>
+                    <tr>
+                        <th>국어(언매)</th>
+                        <th>수학(미적분)</th>
+                        <th>영어</th>
+                        <th>한국지리</th>
+                        <th>사회문화</th>
+                        <th>한국사</th>
+                    </tr>
+                    <tr>
+                        <td>1등급</td>
+                        <td>1등급</td>
+                        <td>1등급</td>
+                        <td>2등급</td>
+                        <td>4등급</td>
+                        <td>2등급</td>
+                    </tr>
+                </table>
+                <div class="score-box female-box">
+                    수능 환산점수: <span class="total-score">457.19점</span> (합격생보다 +11.01점)
+                </div>
+                
+                <table class="grade-table">
+                    <tr><th colspan="4">실기 성적 (여학생 기준)</th></tr>
+                    <tr>
+                        <th>높이뛰기</th>
+                        <th>농구</th>
+                        <th>지그재그런</th>
+                        <th>실기 총점</th>
+                    </tr>
+                    <tr>
+                        <td>120cm (95점)</td>
+                        <td>12개 (95점)</td>
+                        <td class="highlight">37.55초 (85점)</td>
+                        <td>275점 (-17점)</td>
+                    </tr>
+                </table>
+                <div class="score-box female-box">
+                    환산 총점: <span class="total-score failed">732.19점</span> (불합격)
+                    <div class="warning">※ 여학생 실기 기준 적용 | 지그재그런에서 큰 점수 차이</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 서울대 -->
+    <div class="univ-card">
+        <div class="passed-header seoul-header">서울대학교 체육교육과</div>
+        <div class="content">
+            <div class="section">
+                <div class="section-title seoul-section">합격생 사례 (상대평가)</div>
+                <table class="grade-table">
+                    <tr><th colspan="6">수능 성적</th></tr>
+                    <tr>
+                        <th>국어(언매)</th>
+                        <th>수학(미적분)</th>
+                        <th>영어</th>
+                        <th>물리학I</th>
+                        <th>지구과학I</th>
+                        <th>한국사</th>
+                    </tr>
+                    <tr>
+                        <td>2등급</td>
+                        <td>1등급</td>
+                        <td>1등급</td>
+                        <td>2등급</td>
+                        <td>2등급</td>
+                        <td>2등급</td>
+                    </tr>
+                </table>
+                <div class="score-box seoul-box">
+                    수능 환산점수: <span class="total-score">388.8점</span>
+                </div>
+                
+                <table class="grade-table">
+                    <tr><th colspan="6">실기 성적 (상대평가)</th></tr>
+                    <tr>
+                        <th>턱걸이</th>
+                        <th>핸드볼던지기</th>
+                        <th>제자리멀리뛰기</th>
+                        <th>100m</th>
+                        <th>농구</th>
+                        <th>축구</th>
+                    </tr>
+                    <tr>
+                        <td>14개</td>
+                        <td>28m</td>
+                        <td>240cm</td>
+                        <td>13.4초</td>
+                        <td>8개</td>
+                        <td>보통</td>
+                    </tr>
+                </table>
+                <div class="score-box seoul-box">
+                    <span class="total-score passed">합격</span>
+                    <div class="note">※ 서울대는 절대평가가 아닌 상대평가로 선발하며, 실기배점 공개하지 않음</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="comparison">
+        <strong>체대입시 성공 전략 요약</strong><br>
+        1. <u>연세대</u>: 수능 585점대 + 실기 90점 이상 목표<br>
+        2. <u>고려대</u>: 수능 450점대 + 실기 290점 이상 목표 <br>
+        3. <u>서울대</u>: 385점대 + 실기 전 항목 균형있는 준비<br><br>
+        
+        <span class="warning">공통점: 모든 대학에서 실기 성적이 합격의 결정적 요소</span><br>
+        - 연세대: 메디신볼던지기 같은 특정 항목에서 큰 점수 차이 발생<br>
+        - 고려대: 작은 점수 차이(5~10점)로도 합격/불합격 갈림<br>
+        - 서울대: 실기에서 한 두 종목이라도 약점 있으면 불리
+    </div>
+
+    <div class="footer">
+        <p>맥스체대입시 | 체대입시 전문 컨설팅 |</p>
+        <p>※ 모든 자료는 실제 합격/불합격 사례를 바탕으로 하였습니다.</p>
+    </div>
+</body>
+</html>
